@@ -28,8 +28,7 @@ function renderDistances(distances) {
 
 function renderTravels(travels) {
     travelEl.textContent = travels
-}
-     
+}    
 
 async function getDataIndex0() {
 
@@ -64,15 +63,12 @@ async function getDataIndex0() {
     }
 
     renderTitles(titles)
-    /renderTravels(travels)
-    /renderDistances(distances)
-    /renderDescritions(descriptions)
-    /renderImages(images)
-   
-    
+    renderTravels(travels)
+    renderDistances(distances)
+    renderDescritions(descriptions)
+    renderImages(images)
+      
 }
-
-
 
 buttonElMoon.addEventListener('click', getDataIndex0)
 
@@ -109,15 +105,12 @@ async function getDataIndex1() {
     }
 
     renderTitles(titles)
-    /renderTravels(travels)
-    /renderDistances(distances)
-    /renderDescritions(descriptions)
-    /renderImages(images)
-   
+    renderTravels(travels)
+    renderDistances(distances)
+    renderDescritions(descriptions)
+    renderImages(images)
     
 }
-
-
 
 buttonElMars.addEventListener('click', getDataIndex1)
 
@@ -154,15 +147,12 @@ async function getDataIndex2() {
     }
 
     renderTitles(titles)
-    /renderTravels(travels)
-    /renderDistances(distances)
-    /renderDescritions(descriptions)
-    /renderImages(images)
-   
+    renderTravels(travels)
+    renderDistances(distances)
+    renderDescritions(descriptions)
+    renderImages(images)
     
 }
-
-
 
 buttonElEuropa.addEventListener('click', getDataIndex2)
 
@@ -199,15 +189,12 @@ async function getDataIndex3() {
     }
 
     renderTitles(titles)
-    /renderTravels(travels)
-    /renderDistances(distances)
-    /renderDescritions(descriptions)
-    /renderImages(images)
-   
+    renderTravels(travels)
+    renderDistances(distances)
+    renderDescritions(descriptions)
+    renderImages(images)
     
 }
-
-
 
 buttonElTitan.addEventListener('click', getDataIndex3)
 
