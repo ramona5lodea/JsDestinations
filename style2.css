@@ -1,0 +1,92 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url(/assets/destination/background-destination-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    color: #D0D6F9;
+    ;  
+
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: 200px;
+
+}
+
+button {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 50px;
+    letter-spacing: 2.7px;
+    background: none;
+    color: #D0D6F9;
+    border: none;
+    text-decoration: none;
+
+}
+button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#planet {
+    height: 445px;
+    width: 445px;
+}
+
+
+ .title {
+    color: white;
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 172px;
+    margin: 0;
+
+ }
+
+ .subtitle{
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.725px;
+    margin: 0;
+ }
+
+ .description {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.8em;
+    margin: 0;
+    
+
+ }
+
+ .extra-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 79px;
+
+ }
+
+ .description2 {
+    font-size: 24px;
+ }
+
+ .subcontainer {
+    width: 450px;
+ }
